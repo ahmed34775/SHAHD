@@ -81,13 +81,31 @@ section{
     background-color: #00e1ff;
     text-decoration: none;
     font-size: 1.1em;
-    font-weight: 600;
+    font-weight: 750;
     display: inline-block;
     padding: 0.9375em 2.1875em;
     letter-spacing: 1px;
     border-radius: 15px;
     margin-bottom: 40px;
     transition: 0.7s ease;
+}
+.main-btnn{
+    color: rgb(41, 41, 41);
+    background-color: #00e1ff;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 750;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+    margin-top: 2em;
+}
+.main-btnn:hover{
+    background-color: #00e1ff;
+    transform: scale(1.1);
 }
 .main-btn:hover{
     background-color: #00e1ff;
@@ -102,6 +120,14 @@ section{
     display: flex;
     justify-content: center;
     color: rgb(41, 41, 41);
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.tittles{
+    display: flex;
+    justify-content: center;
+    color: #00e1ff;
     font-size: 2.2em;
     font-weight: 800;
     margin-bottom: 30px;
@@ -146,7 +172,8 @@ section{
 .arbic {
  text-align: center;
  margin-bottom: 30px;
- color: rgb(255, 255, 255);
+ color: rgb(179, 179, 179);
+ font-size: 1.5em;
 }
 .info h3{
     color: #00e1ff;
@@ -162,7 +189,7 @@ section{
     margin-top: 30px;
 }
 .project-card{
-
+    
     border: 1px solid none;
     min-height: 14em;
     width: 23em;
@@ -176,6 +203,12 @@ section{
 }
 .project-image img{
 width: 100%;
+}
+.h4{
+    color: rgb(202, 202, 202);
+    text-align: center;
+    font-size: 1.1em;
+    text-decoration: none;
 }
 .contact {
     background-color: rgb(192, 192, 192);
@@ -192,14 +225,31 @@ width: 100%;
     padding: 2em;
     display: flex;
     justify-content: space-between;
-
 }
 .footer-title{
     font-size: 1.3em;
     font-weight: 600;
+    text-decoration: none;
 }
 .footer-title span{
+    color: #ffffff;
+    text-decoration: none;
+}
+.fe{
     color: #00e1ff;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 700;
+    padding-right: 21em;
+    
+}
+.nono span{
+        color: #00e1ff;
+        text-decoration: none;
+    
+}
+.nono{
+    text-decoration: none;
 }
 @media (max-width:1023px){
     header{
